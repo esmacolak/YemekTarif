@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidLogin</string>
+    <string name="nsert_student">ınsert student</string>
+    <string name="show_student">show student</string>
+    <string name="name">Name</string>
+    <string name="title_activity_tarif">Tarif</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="textview">TextView</string>
+</resources>

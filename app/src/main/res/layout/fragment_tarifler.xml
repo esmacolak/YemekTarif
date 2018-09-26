@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnmercimek"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/btnCorba"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lettuce"
+        android:text="Sebze Yemekleri" />
+
+    <Button
+        android:id="@+id/btnYum"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/breakfast"
+        android:text="Yumurta" />
+
+    <Button
+        android:id="@+id/btnSalata"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/btnYum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/salad"
+
+        android:text="salata" />
+
+    <Button
+        android:id="@+id/btnTavuk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/chicken"
+        android:text="Tavuk Yemekleri" />
+
+    <Button
+        android:id="@+id/btnCorba"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignStart="@+id/btnTavuk"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/soup"
+        android:text="Çorbalar"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnMak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/btnTavuk"
+        android:layout_alignTop="@+id/btnSalata"
+        android:background="@drawable/spaguetti"
+        android:text="Makarna" />
+
+    <Button
+        android:id="@+id/btnBalik"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/balik"
+        android:text="balık yemekleri" />
+
+    <Button
+        android:id="@+id/btnTatli"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnSalata"
+        android:background="@drawable/cupcake"
+        android:text="tatlı" />
+
+    <Button
+        android:id="@+id/btnEt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/btnBalik"
+        android:layout_alignTop="@+id/btnmercimek"
+        android:background="@drawable/steak"
+        android:text="Et Yemekleri" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

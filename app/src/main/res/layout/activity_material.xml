@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Material"
+    android:background="@drawable/back2">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/scroll2"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+
+
+
+            <CheckBox
+                android:id="@+id/checkYum"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/yum"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBalik"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/balik"
+                />
+
+            <CheckBox
+                android:id="@+id/checkTavuk"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/tavuk"
+                 />
+
+            <CheckBox
+                android:id="@+id/checkEt"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/et"
+                 />
+
+            <CheckBox
+                android:id="@+id/checkSosis"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/sosis"
+                 />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/l_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+
+
+
+                <CheckBox
+                    android:id="@+id/checkIspanak"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/spanak" />
+
+                <CheckBox
+                    android:id="@+id/checkKabak"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/kabak" />
+
+                <CheckBox
+                    android:id="@+id/checkFasulye"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fasulye" />
+
+                <CheckBox
+                    android:id="@+id/checkEnginar"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/enginar" />
+
+                <CheckBox
+                    android:id="@+id/checkBezelye"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bezelye" />
+
+                <CheckBox
+                    android:id="@+id/checkLahana"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lahana" />
+
+                <CheckBox
+                    android:id="@+id/checkPatates"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/patates" />
+
+                <CheckBox
+                    android:id="@+id/checkDomates"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/domates" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@id/scroll2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/scroll1"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:id="@+id/l_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+
+
+
+            <CheckBox
+                android:id="@+id/checkUn"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/un"
+
+                 />
+
+            <CheckBox
+                android:id="@+id/checkPirinc"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/pirinc"
+                 />
+
+            <CheckBox
+                android:id="@+id/checkBulgur"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/bulgur"
+
+                 />
+
+            <CheckBox
+                android:id="@+id/checkYufka"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/yufka"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/scrol3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/scroll1"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+
+
+
+            <CheckBox
+                android:id="@+id/checkCiko"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/cikolata"
+                />
+
+            <CheckBox
+                android:id="@+id/checkSut"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/sut"
+                />
+
+            <CheckBox
+                android:id="@+id/checkKrema"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/krema"
+                />
+
+            <CheckBox
+                android:id="@+id/checkCilek"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/cilek"
+                />
+
+            <CheckBox
+
+                android:id="@+id/checkElma"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/elma"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/tarifGetir"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/chef"/>
+
+
+</RelativeLayout>
